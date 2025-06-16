@@ -1,0 +1,80 @@
+
+
+
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     
+}
+
+
+#notif{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+
+
+
+
+
+
+
+
+.card {
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 750px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  
+  .user-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  
+  .profile-pic {
+    width: 20px;
+    height: 20px;
+    background-color: #801313;
+    border-radius: 50%;
+  }
+  
+  .message-info {
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  .message-text {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #222;
+  }
+  
+  .user-image {
+    width: 120px;
+    height: 80px;
+    background-color: #eee;
+    border-radius: 8px;
+    object-fit: cover;
+    padding: 5px;
+  }
+      
