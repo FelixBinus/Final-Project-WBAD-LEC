@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-banner img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.welcome-container {
+  text-align: center;
+  padding: 30px;
+  
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #b30000;
+  margin: 10px 0;
+}
+
+.logo img {
+  margin-right: 10px;
+  height: 150px;
+
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+.primary {
+  background-color: #b30000;
+  color: white;
+  border: none;
+}
+
+.secondary {
+  border: 1px solid #b30000;
+  color: #000;
+  background-color: transparent;
+}
+
+.signup-container {
+  display: flex;
+  min-height: 100vh;
+  
+}
+
+.image-side {
+  flex: 1;
+}
+
+.image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.form-side {
+  flex: 1;
+  padding: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+.form-side .logo{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-side h3 {
+  margin-bottom: 20px;
+  text-align: center;
+ 
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+
+.gender-group {
+  margin: 10px 0;
+}
+
+.gender-group label {
+  margin-right: 15px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
+
+
+.donthave{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
