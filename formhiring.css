@@ -1,0 +1,92 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     
+}
+ 
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hiring{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+.containerform h1{
+    text-align: center;
+    
+}
+
+.containerform{
+    display: flex;
+    flex-direction: column;
+    background-color:#E8C999 ;
+    border-radius: 20px;
+    margin: 20px 100px 20px 100px;
+    padding: 30px;
+    gap: 30px;
+    
+    
+
+}
+
+
+.inputstyle {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageinput{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+   
+}
+
+
+.inputstyle2{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+
+
+.buttonsubmit{
+
+    display: flex;
+    background-color: #8E1616;
+    color: white;
+    font-weight: 800;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+
+
+
+}

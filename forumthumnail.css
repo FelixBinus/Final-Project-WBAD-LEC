@@ -1,0 +1,71 @@
+.containerforum{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+main{
+width: 60%;
+}
+
+.forumcard{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid ;
+    border-color: #8E1616;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+
+
+}
+
+.forumcard img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.forumcard hr{
+    height: 5px;
+    color: #8E1616;
+    background-color: #8E1616;
+    border-radius: 10px;
+}
+
+
+.forumcard:hover{
+    background-color: antiquewhite;
+
+}
+
+
+.hrjoin{
+    display: flex;
+    
+}
+
+.hrjoin hr{
+width: 100%;
+justify-content: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.hrjoin button{
+    margin-left: 60px;
+    padding: 10px 70px 10px 70px;
+    background-color: #8E1616;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    
+
+}
+
+.hrjoin button.active  {
+  background-color: #b6b6b6; 
+  
+}

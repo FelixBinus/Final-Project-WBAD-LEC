@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="formhiring.css">
+
+</head>
+<body>
+
+    <nav>
+     
+               <img class="photo" src="./asset/logo.png" alt="">
+               <div class="menu">
+                    <a href="index.html" >Home</a>
+                     <div class="dropdown">
+                         <a href="hiring.html" id="redfont">Job</a>
+
+                         <div class="dropdown-content">
+                              <a href="findjob.html">Find Job</a>
+                              <a href="hiring.html">Hiring Job</a>
+                         </div>
+
+                    </div>
+                    
+                    <a href="Message.html">Message</a>
+                    
+                     <div class="dropdown">
+                         <a href="" id="forum">Forum</a>
+                         <div class="dropdown-content">
+                              <a href="mypost.html">Post</a>
+                              <a href="forumthumnail.html">ExploreForum</a>
+                              <a href="myforum.html">My Forum</a>
+                         </div>
+                    </div>
+                    <a href="./Notifikasi/notifikasi.html" id="notif">Notification</a>
+               </div>
+
+               
+               
+               <a href="profile.html" class="profilea">
+                     <img id="profilePreview" class="profile" src="./asset/DSCF3336.JPG" alt="">
+
+               </a>
+          
+     </nav>
+
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+
+     <main>
+
+        <div class="containerform">
+
+
+            <h1>
+                Form Hiring Job
+            </h1>
+
+            <form action="http:/~" method="GET">
+
+                <label for="position">Position</label>
+                <br>
+
+                <input class="inputstyle" type="text" name="position" id="position" placeholder="Position">
+                <br>
+
+                <label for="companyname">Company Name</label>
+                <br>
+
+                <input class="inputstyle"  type="text" name="companyname" id="companyname" placeholder="Company / your name">
+                <br>
+
+                <label for="Logo">Logo</label>
+                <br>
+
+                <input class="imageinput" type="image" name="logo" id="logo">
+                <br>
+
+
+                <label for="jamkerja">Jam Kerja</label>
+                <br>
+
+                <input class="inputstyle"  type="text" name="jamkerja" id="jamkerja" placeholder="Part time/full time">
+                <br>
+
+                <label for="gaji">Gaji</label>
+                <br>
+
+
+                <input class="inputstyle"  type="gaji" name="gaji" id="gaji" placeholder="Gaji">
+                <br>
+
+                <label for="location">Location</label>
+                <br>
+
+                <input class="inputstyle"  type="location" name="location" id="location" placeholder="Location">
+                <br>
+
+                <label for="deadline">Deadline</label>
+                <br>
+
+                <input class="inputstyle"  type="date" name-="date" id="
+                date">
+                <br>
+
+                <label for="qualifications">Qualifications</label>
+                <br>
+
+                <input class="inputstyle2"  type="text" name-="qualifications" id="qualifications">
+
+                <br>
+
+                <label for="descriptionjob">Description Job</label>
+                <br>
+
+                <input class="inputstyle2"  type="text" name-="descriptionjob" id="descriptionjob">
+
+                <br>
+                <br>
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">Accept Terms & confitions</label>
+            
+
+                <br>
+
+               
+
+                <button class="buttonsubmit" type="button" onclick="validateForm()">Publish</button>
+
+
+            </form>
+
+        
+        </div>
+
+
+     </main>
+
+     <script src="hiring.js"></script>
+
+     <script src="profile.js"></script>
+
+
+
+    <footer>
+        <button onclick="scrollToTop()" id="scrollTopBtn">↑</button>
+
+        ©Copyright BridgeDesign 2025
+    </footer>
+
+    <script src="nav.js"></script>
+    
+</body>
+</html>

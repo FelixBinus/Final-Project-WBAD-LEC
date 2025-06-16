@@ -1,0 +1,215 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+     
+}
+
+
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+
+
+main{
+     grid-area: main;
+     padding: 20px; 
+     display: grid;
+     
+    
+     
+}
+
+.overlay{
+     position: absolute;
+     bottom: 0px;
+     left: 0;
+     
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(to top, rgba(0, 0, 0, 5), transparent);
+     
+     display: flex;
+     align-items: flex-end;
+     padding: 10px 20px 20px 20px;
+     color: white;
+     font-size: 14px;
+     box-sizing: border-box;
+     
+    
+}
+
+.title{
+     color: white;
+     font-weight: 900;
+     font-size: 20px;
+}
+
+.made{
+     font-weight: 100;
+     font-size: 12px;
+     padding-top: 10px;
+}
+
+.card{
+     display: flex;
+     margin: 50px;
+     gap: 20px;
+}
+
+.card-container {
+     display: block;
+     margin-bottom: 20px;
+     position: relative;
+     overflow: hidden;
+     flex: 1 calc(30% - 20px);
+     width: auto;
+     transition: ease-in-out 1s;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card-container::after {
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 0;
+     width: 100%;
+     height: 50%;
+     background-color: rgba(0, 0, 0, 0); /* awalnya transparan */
+     transition: background-color 0.5s ease;
+     transition: ease-in-out 1s;
+     border-radius: 10px;
+     z-index: 1;
+}
+
+.card-container:hover {
+     scale: 105%;
+}
+
+.card-container:hover::after {
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%);
+}
+
+.card-container img {
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     background-color: black;
+     position: relative;
+     z-index: 0;
+}
+.title {
+  position: absolute;
+  bottom: 20px;    /* Jarak dari bawah */
+  left: 20px;      /* Jarak dari kiri */
+  z-index: 2;  
+  color: white;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 2;
+  text-align: left;
+}
+
+.titlekarya{
+     display: flex;
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+
+}
+
+.titlekarya h1{
+     width: 600;
+     
+}
+
+.titlekarya hr{
+     height: 5px;
+     width: 100%;
+     background-color: #8E1616;
+     border-radius: 10px;
+     margin-left: 20px;
+     margin-top: auto;
+     margin-bottom: auto;     
+
+}
+
+.card-container:hover .title {
+  opacity: 1;
+  
+}
+
+.card {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     padding: 20px;
+}
+
+
+
+
+
+
+.like-icon {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  opacity: 0;  
+  transition: color 0.3s ease, opacity 0.5s ease;
+}
+
+.card-container:hover .like-icon {
+  opacity: 1;  
+}
+
+.like-icon:hover {
+  color: red;
+}
+
+
+.like-icon.liked {
+  color: red;
+  opacity: 1 !important;  
+}
+
+
+@media screen and (max-width: 900px) {
+
+     
+.card-container{
+    
+     flex:  1 calc(80% - 20px);
+     width: auto;
+
+     
+}
+
+
+
+
+  
+
+}
+
+
+

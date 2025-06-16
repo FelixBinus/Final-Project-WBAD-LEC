@@ -1,0 +1,136 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+
+main{
+     grid-area: main;
+     padding: 20px;
+     display: grid;
+     
+}
+
+.main-button{
+     display: flex;
+     margin-bottom: 20px;
+     justify-content: center;
+     
+   
+}
+
+h1{
+     padding: 20px;
+     margin-left: auto;
+     font-weight: 900;
+    
+}
+
+.card-container{
+  margin-bottom: 20px;
+     flex: 1 1 calc(30% - 20px);
+     width: auto;
+     padding: 15px;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+}
+
+
+
+.name{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+
+   
+}
+.desc{
+     margin-top: 20px;
+     margin-bottom:5px ;
+     font-size: 12px;
+     font-weight: 100;
+     line-height: 1.5;
+}
+
+#text{
+     margin-top: 10px;
+     width: 100%;
+     height: auto;
+     padding: 8px;
+     border: none;
+     border-radius: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+.upload{
+     text-align: center;
+     justify-content:center ;
+     width: 50%;
+     height: auto;
+     padding: 50px;
+     border-radius: 10px;
+     margin-top: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.upload a{
+     text-decoration: none;
+     color: black;
+     
+     
+}
+
+.upload:hover {
+  background-color: #8E1616;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.upload:hover i {
+  color: white;
+}
+
+
+
+.submit button{
+     background-color: #8E1616;
+     color: white;
+     width: 100%;
+     height: auto;
+     padding: 10px;
+     border-radius: 10px;
+     border: none;
+     cursor: pointer;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.submit button:hover{
+     transition: all 0.2s ease-in-out;
+     box-shadow: 0 2px 8px rgba(255, 0, 0, 0.9);
+     
+}

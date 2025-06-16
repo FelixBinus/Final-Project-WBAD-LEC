@@ -1,0 +1,157 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hiring{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+
+h1{
+     padding: 20px;
+     margin-left: auto;   
+}
+
+.containerfindjob{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+
+ 
+    
+}
+
+
+
+.cardfindjob{
+    flex: 1 1 calc(50% - 40px);
+    background-color: white;
+    box-shadow: 0 2px 5px black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+   
+}
+
+.cardfindjob:hover{
+    background-color: rgb(255, 252, 247);
+
+}
+
+
+
+.cardfindjudul{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    padding-bottom: 20px;
+
+}
+
+.cardhfindjudul h2{
+   justify-content: center;
+   text-align: center;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+
+.cardfindjudul img{
+    height: 70px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.marginleft{
+    margin-left: auto;
+
+}
+
+
+hr{
+    background-color: #8E1616;
+    height: 4px;
+    border-radius: 10px;
+    
+}
+
+
+.buttondetailjob{
+    display: flex;
+}
+
+.buttondetailjob a{
+    background-color: #8E1616;
+    color: white;
+
+    font-weight: 700px;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.buttondetailjob a:hover{
+    background-color: #520e0e;
+}
+
+.pfindjob {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+     
+.card-container{
+    
+     flex:  1 calc(80% - 20px);
+     width: auto;
+
+     
+}
+
+
+
+    
+
+}
+

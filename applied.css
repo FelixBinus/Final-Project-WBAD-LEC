@@ -1,0 +1,97 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     
+}
+
+
+#hiring{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+
+h1{
+   text-align: right;
+   margin-right: 20px;
+   padding: 20px;
+        
+}
+
+
+
+
+/* isi applied */
+
+.containerapplied{ /*keseluruhan*/
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+
+.cardapplied{ /*perbiji*/
+    flex: 1 1 calc(50% - 40px);
+    display: flex;
+    background-color: white;
+    box-shadow: 0 2px 5px black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;   
+   
+}
+
+.cardapplied img{
+    margin-left: auto;
+    border-radius: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(158, 0, 0);
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    
+    
+}
+
+.papplied{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+    
+}
+
+.cardapplied h2{
+   justify-content: center;
+   
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+
+.view{
+   display: flex;
+   background-color: #8E1616;
+   color: white;
+   font-weight: 800;
+   justify-content: center;
+   padding: 5px 20px 5px 20px;
+   border-radius: 20px;
+   border: none;
+   text-align: center;
+   font-size: 15px;
+   margin: 10px;
+   text-decoration: none;
+   
+}
+
+
+hr{
+    background-color: #8E1616;
+    height: 4px;
+    border-radius: 10px;
+}

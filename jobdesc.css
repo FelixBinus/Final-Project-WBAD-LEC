@@ -1,0 +1,136 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+main{
+     grid-area: main;
+     padding: 20px;
+     display: grid;
+     
+}
+
+
+.btn-spacing{
+     display: flex;
+     gap: 10px;
+     justify-content:flex-start;
+     margin-left: auto;
+    
+    
+  
+}
+
+
+.btn-spacing button{
+     background-color: white;
+     padding: 10px;
+     height: auto ;
+     width: auto;
+     border-radius: 8px;
+     border: none;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     
+}
+
+.btn-spacing button:hover{
+     background-color:#8E1616;
+     color: white;
+     transition:all 0.15s ease-in-out ;
+
+}
+
+
+.title{
+     display: flex;
+}
+
+main img{
+     margin-top: 50px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+     width: 100%;
+     height: auto;
+}
+
+hr{
+     margin-top: 50px;
+     height: 3px;
+     width: 65%;
+     margin-left: -50px;
+     background-color: black;
+     border-radius: 15px;
+     margin-bottom: 50px;
+}
+
+.qualify{
+     margin: 10px 20px 20px 20px;
+     padding: 50px 0px 20px 50px;
+     justify-content: center;
+     padding-top: 15px;
+     line-height: 1.5;
+}
+
+.qualify p{
+     text-align: justify;
+     font-weight: 100;
+}
+
+.qualify h5{
+     margin-bottom: 20px;
+     font-size: 20px;
+}
+
+
+.buttonapply{
+     margin: auto;
+     
+   
+
+}
+
+.apply{
+     background-color: #8E1616;
+     border: none;
+     height: auto;
+     width: 100%;
+     padding: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     color: white;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     align-items: center;
+     
+     
+}
+
+
+.apply:hover{
+     background-color: #a91b1b;
+     box-shadow: 0 2px 8px rgba(255, 85, 85, 0.9);;
+     transition:all 0.15s ease-in-out ;
+
+
+}
+
+
+.save.active {
+    background-color: #8E1616;
+    color: white;
+}
+

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="formhiring.css">
+
+</head>
+<body>
+
+    <nav>
+     
+               <img class="photo" src="./asset/logo.png" alt="">
+               <div class="menu">
+                    <a href="index.html" >Home</a>
+                     <div class="dropdown">
+                         <a href="hiring.html" id="redfont">Job</a>
+
+                         <div class="dropdown-content">
+                              <a href="findjob.html">Find Job</a>
+                              <a href="hiring.html">Hiring Job</a>
+                         </div>
+
+                    </div>
+                    
+                    <a href="Message.html">Message</a>
+                    
+                     <div class="dropdown">
+                         <a href="" id="forum">Forum</a>
+                         <div class="dropdown-content">
+                              <a href="mypost.html">Post</a>
+                              <a href="forumthumnail.html">ExploreForum</a>
+                              <a href="myforum.html">My Forum</a>
+                         </div>
+                    </div>
+                    <a href="./Notifikasi/notifikasi.html" id="notif">Notification</a>
+               </div>
+
+               
+               
+               <a href="profile.html" class="profilea">
+                     <img id="profilePreview" class="profile" src="./asset/DSCF3336.JPG" alt="">
+
+               </a>
+          
+     </nav>
+
+   
+
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+
+     <main>
+
+        <div class="containerform">
+
+
+            <h1>
+                Form Apply Job
+            </h1>
+
+            <form action="http:/~" method="GET">
+
+                <label for="fullname">Full Name</label>
+                <br>
+
+                <input class="inputstyle" type="text" name="fullname" id="fullname" placeholder="fullname">
+                <br>
+
+                <label for="address">Address</label>
+                <br>
+
+                <input class="inputstyle"  type="text" name="address" id="address" placeholder="addres">
+                <br>
+
+               <label for="email">Email</label>
+                <input class="inputstyle" type="email" name="email" id="email" placeholder="email">
+                
+                <br>
+
+                <label for="phone">Phone Number</label>
+                <br>
+
+                <input class="inputstyle"  type="text" name="phone" id="phone" placeholder="Phone Number">
+                <br>
+
+
+
+
+                <label for="linked">Linked</label>
+                <br>
+
+
+                <input class="inputstyle"  type="gaji" name="linked" id="linked" placeholder="linked link">
+                <br>
+
+
+
+                <label for="cv">CV</label>
+                <br>
+
+                <input class="imageinput" type="image" name="cv" id="cv">
+                <br>
+
+                <label for="cl">Cover Letter</label>
+                <br>
+
+                <input class="imageinput" type="image" name="cl" id="cl">
+                <br>
+                
+                
+
+                <br>
+                <br>
+                <input type="checkbox" name="terms" id="terms">
+                <label for="terms">Accept Terms & confitions</label>
+            
+
+                <br>
+
+               
+
+                <button class="buttonsubmit" type="button" onclick="validateForm()">Apply</button>
+
+
+            </form>
+
+        
+        </div>
+
+
+     </main>
+
+     <script src="apply.js"></script>
+
+     <script src="profile.js"></script>
+
+
+
+    <footer>
+        <button onclick="scrollToTop()" id="scrollTopBtn">↑</button>
+
+        ©Copyright BridgeDesign 2025
+    </footer>
+
+    <script src="nav.js"></script>
+    
+     
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+
+.job-title{
+     width: 100%;
+     height: auto;
+     display: flex;
+     padding: 5px;
+}
+
+.job-title p{
+     text-align: center;
+}
+
+.job-title img{
+     width: 200px;
+    height: 80px;
+    object-fit: cover;
+     
+}
+
+h1{
+     padding: 20px;
+     margin-left: auto;   
+     height: auto;
+}
+
+
+main{
+     grid-area: main;
+     padding: 20px;
+     display: grid;
+     
+}
+
+.button-container{
+     display: flex;
+     gap: 10px;
+     justify-content:flex-start;
+     padding: 20px;
+    
+    
+  
+}
+
+.button-container button{
+     background-color: white;
+    font-size: 15px;
+     padding: 10px;
+     height: 50px ;
+     width: 50px;
+     border-radius: 8px;
+     border: none;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     
+}
+
+.button-container button:hover{
+     background-color:#8E1616;
+     color: white;
+     transition:all 0.15s ease-in-out ;
+
+}
+
+.date{
+     width: 100%;
+     display: flex;
+     gap: 70px;
+     
+}
+
+.date p{
+     font-size: 12px;
+}
+
+.date hr{
+     height: 3px;
+     margin-top: 5px;
+     width: 300px;
+     margin-left: -100px;
+     
+     background-color: black;
+     border: none;
+}
+
+.description{
+
+     margin-top: 50px;
+     padding: 20px;
+     font-size: 12px;
+    
+}
+
+.description ul{
+ 
+}
+
+.detail li{
+     list-style: none;
+}
+
+.qualify{
+     margin: 10px 20px 20px 20px;
+     padding: 50px 0px 20px 50px;
+     justify-content: center;
+     padding-top: 15px;
+     line-height: 1.5;
+}
+
+.qualify p{
+     text-align: justify;
+     font-weight: 100;
+}
+
+.qualify h5{
+     margin-bottom: 20px;
+     font-size: 20px;
+}
+
+
+.detail{
+     margin: 10px 20px 20px 20px;
+     padding: 50px 0px 20px 50px;
+     justify-content: center;
+     padding-top: 15px;
+     line-height: 1.5;
+}
+
+
+.buttonapply{
+     margin: auto;
+     
+   
+
+}
+
+.apply{
+     background-color: #8E1616;
+     border: none;
+     height: auto;
+     width: 100%;
+     padding: 10px;
+     padding-left: 50px;
+     padding-right: 50px;
+     color: white;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     align-items: center;
+     
+     
+}
+
+
+.apply:hover{
+     background-color: #a91b1b;
+     box-shadow: 0 2px 8px rgba(255, 85, 85, 0.9);;
+     transition:all 0.15s ease-in-out ;
+
+
+}
+
+
+.save.active {
+    background-color: #8E1616;
+    color: white;
+}
+

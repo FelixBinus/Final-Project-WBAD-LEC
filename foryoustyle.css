@@ -1,0 +1,278 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     
+}
+
+main{
+     width: 60%;
+     margin-left: auto;
+     margin-right: auto
+}
+
+
+
+#forum{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+
+.btn-add{
+     right: 20px;
+     bottom: 20px;
+     position: fixed;
+     width: 50px;
+     height: 50px;
+     border-radius: 500px;
+     background-color:#8E1616;
+     text-align: center;
+     color: white;
+     font-size: 50px;
+     line-height: 50px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+     cursor: pointer;
+}
+
+.btn-add a{
+     text-decoration: none;
+     color: white;}
+
+main{
+     grid-area: main;
+     padding: 20px;
+     display: grid;
+     
+}
+
+.main-button{
+     display: flex;
+     margin-bottom: 20px;
+     justify-content: center;
+     
+   
+}
+
+.main-button a {
+  text-decoration: none;
+  text-align: center;
+  padding:8px;
+  width: 50%;
+  
+  border: none;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+
+.tab-left {
+     border-radius: 20px 0 0 20px;
+  color: white;
+  background-color: #8E1616;
+}
+
+.tab-right {
+   border-radius: 0 20px 20px 0;
+  color: black;
+  background-color: white;
+    
+    
+}
+
+
+.main-button a:hover{
+     color:white;
+     background-color: #8E1616;
+}
+
+
+h1{
+     padding: 20px;
+     margin-left: auto;
+    
+}
+
+.card-container{
+  margin-bottom: 20px;
+     flex: 1 1 calc(30% - 20px);
+     width: auto;
+     padding: 0 15px 15px 15px;
+     border-radius: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+}
+
+.profile-2{
+     margin: 10px 0 10px -10px;
+     object-fit: cover;
+     width: 30px;
+     height: 30px;
+     border-radius: 500px;
+     border: none;
+     background-color: rgb(61, 61, 61);
+}
+
+.pic{
+     width: 100%;
+     height: 290px;
+     background-color: rgb(62, 62, 62);
+     border-radius: 10px;
+     margin-bottom: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+     object-fit: cover;
+    
+
+}
+
+.btn-spacing i{
+     font-size: 16px;
+}
+
+.name{
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+
+   
+}
+.btn-spacing{
+     display: flex;
+     gap: 10px;
+     justify-content:flex-start;
+    
+    
+  
+}
+
+.desc{
+     margin-top: 20px;
+     margin-bottom:5px ;
+     font-size: 12px;
+     font-weight: 100;
+     line-height: 1.5;
+}
+
+.btn-spacing button{
+     background-color: white;
+    
+     padding: 10px;
+     height: auto ;
+     width: auto;
+     border-radius: 8px;
+     border: none;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     
+}
+
+.btn-spacing button:hover{
+     background-color:#8E1616;
+     color: white;
+     transition:all 0.15s ease-in-out ;
+
+}
+
+h1{
+     font-weight: 900;
+}
+
+.like.active {
+    background-color: #8E1616;
+    color: white;
+}
+
+.save.active {
+    background-color: #8E1616;
+    color: white;
+}
+
+.save{
+     margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+#commentPopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 50%;
+  max-width: 90%;
+  z-index: 1;
+  
+}
+
+#closePopup {
+  float: right;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#commentList {
+     border-top: 1px solid rgb(209, 209, 209);
+     border-bottom: 1px solid rgb(209, 209, 209);
+     
+     padding: 10px;
+}
+
+#newComment {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#sendComment {
+  background-color: #8E1616;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#sendComment:hover {
+  background-color: #a51b1b;
+}

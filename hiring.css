@@ -1,0 +1,173 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hiring{
+     border-bottom: 4px solid;
+     border-color: #8E1616;
+
+}
+
+
+h1{
+   text-align: right;
+   margin-right: 20px;
+   padding: 20px;
+        
+}
+
+
+
+
+
+/* isi hiring */
+
+.containerhiring{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+
+.cardhiring{ 
+    flex: 1 1 calc(50% - 40px);
+    background-color: white;
+    box-shadow: 0 2px 5px black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;   
+   
+}
+
+.cardhiring:hover{
+    background-color: rgb(255, 252, 247);
+
+}
+
+
+
+
+.cardhiringjudul{ /*judul dn button jd 1*/
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.cardhiringjudul h2{
+   justify-content: center;
+   text-align: center;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+
+
+#marginbutton{
+    margin-left: auto;
+
+
+}
+
+hr{
+    background-color: #8E1616;
+    height: 4px;
+    border-radius: 10px;
+}
+
+/* button hiring */
+
+.buttondihiring{
+   display: flex;
+}
+.savebutton{
+   display: flex;
+   background-color: #8E1616;
+   color: white;
+   font-weight: 800;
+   justify-content: center;
+   padding: 5px 20px 5px 20px;
+   border-radius: 20px;
+   border: none;
+   text-align: center;
+   font-size: 15px;
+   margin: 10px;
+   
+}
+
+.savebutton.clicked {
+  background-color: #ccc; 
+  color: #333;
+}
+
+.edithiring{
+   
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: #8E1616;
+    font-weight: 800;
+    font-size: 11px;
+    margin: 10px 10px 10px auto;
+
+
+}
+
+
+
+.phiring {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    
+    
+}
+
+
+
+.buttonplus{
+   height: 100px;
+   width: auto;
+   position: fixed;
+   bottom: 20px; 
+   right: 20px;
+   z-index: 1;
+}
+
+
+
+/* RESPONSIVE */
+
+@media  (max-width: 768px) {
+
+   .cardhiring{ 
+    flex: 1 1 calc(100% - 40px);
+    background-color: white;
+    box-shadow: 0 2px 5px black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;   
+   
+}
+
+
+    
+
+
+   
+  
+}

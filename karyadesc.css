@@ -1,0 +1,153 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+     
+}
+
+
+.grid-template{
+     grid-template-areas: 
+     "header"
+     "main"
+     "footer";
+
+     grid-template-rows: auto auto auto;
+}
+
+
+main{
+     grid-area: main;
+     padding: 30px;
+     display: grid;
+     
+}
+
+
+.btn-spacing{
+     display: flex;
+     gap: 10px;
+     justify-content:flex-start;
+     margin-left: auto;
+    
+    
+  
+}
+
+
+.btn-spacing button{
+     background-color: white;
+     padding: 10px;
+     height: auto ;
+     width: auto;
+     border-radius: 8px;
+     border: none;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     
+}
+
+.btn-spacing button:hover{
+     background-color:#8E1616;
+     color: white;
+     transition:all 0.15s ease-in-out ;
+
+}
+
+
+.title{
+     display: flex;
+}
+
+main img{
+     margin-top: 50px;
+     justify-self: center;
+     border-radius: 10px;
+     width: 50%;
+     height: auto;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+hr{
+     margin-top: 50px;
+     height: 3px;
+     width: 65%;
+     justify-self: center;
+     background-color: black;
+     border-radius: 15px;
+     margin-bottom: 50px;
+}
+
+.qualify{
+    
+     margin-bottom: 50px;
+     justify-content: center;
+     padding-top: 15px;
+     line-height: 1.5;
+}
+
+.qualify p{
+     text-align: justify;
+     font-weight: 100;
+}
+
+.qualify h5{
+     text-align: center;
+     margin-bottom: 0px;
+     font-size: 20px;
+}
+
+.viewhiring{
+     text-align: center;
+     
+}
+
+.apply{
+     background-color: #8E1616;
+     border: none;
+     height: auto;
+     width: 50%;
+     padding: 10px;
+     color: white;
+     border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+     justify-self: center;
+}
+
+
+.apply:hover{
+     background-color: #a91b1b;
+     box-shadow: 0 2px 8px rgba(255, 85, 85, 0.9);;
+     transition:all 0.15s ease-in-out ;
+
+
+}
+
+
+.save.active {
+    background-color: #8E1616;
+    color: white;
+}
+
+.descart{
+     text-align-last: left;
+     font-size: 14px;
+     margin-bottom: 50px;
+     text-align: center;
+     padding: 40px;
+     padding-left: 50px;
+     padding-right: 50px;
+     line-height: 1.5;
+}
+
+
+
+.like.active {
+    background-color: #8E1616;
+    color: white;
+}
+
+.save.active {
+    background-color: #8E1616;
+    color: white;
+}
